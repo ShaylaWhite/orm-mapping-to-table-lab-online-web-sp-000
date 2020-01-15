@@ -7,6 +7,6 @@ def initalize(name,album, id=nil)
  @id = id
  @name = name
  @album = album 
- 
 end
-end 
+ 
+ end 
