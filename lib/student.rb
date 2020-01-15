@@ -23,7 +23,7 @@ end
 def self.drop_table
   sql = <<-SQL
   
-     INSERT INTO songs (name, album) 
+     INSERT INTO students 
       VALUES (?, ?)
     SQL
  
