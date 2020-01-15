@@ -39,6 +39,8 @@ def save
   end
   
 def self.create
-  
+  song = Song.new(name, album)
+    song.save
+    song
 end
  end
