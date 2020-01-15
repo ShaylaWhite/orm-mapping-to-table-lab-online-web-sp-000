@@ -6,7 +6,7 @@ attr_reader :id
 def initialize(name,grade, nil=id)
  @id = id
  @name = name
-@grade = name
+ @grade = grade
 end
  
  end 
