@@ -27,6 +27,6 @@ def self.drop_table
       VALUES (?, ?)
     SQL
  
-    DB[:conn].execute(sql, self.name, self.album)
+    DB[:conn].execute(sql, self.name, self.grade)
 end
 end
