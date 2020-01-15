@@ -8,5 +8,6 @@ def initialize(name,grade, nil=id)
  @name = name
  @grade = grade
 end
- 
- end 
+
+
+end
