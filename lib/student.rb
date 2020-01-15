@@ -39,7 +39,7 @@ def save
   end
   
 def self.create(name,grade)
-  Student =
+  student = Student
 
 end
 
